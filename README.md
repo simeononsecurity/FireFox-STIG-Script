@@ -7,7 +7,7 @@ This script will implement most of the required FireFox policies. In the future,
 
 ## Download the required files
 
-Download the required files from the [GitHub Repository]()
+Download the required files from the [GitHub Repository](https://github.com/simeononsecurity/FireFox-STIG-Script)
 
 ## How to run the script
 
