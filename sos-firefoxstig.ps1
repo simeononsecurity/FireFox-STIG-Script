@@ -27,3 +27,5 @@ If (Test-Path -Path $firefox32){
 }Else {
     Write-Host "FireFox 32-Bit Is Not Installed"
 }
+
+.\Files\LGPO\LGPO.exe /g .\Files\GPO\
