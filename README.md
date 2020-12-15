@@ -13,6 +13,15 @@ Download the required files from the [GitHub Repository](https://github.com/sime
 ## How to run the script
 
 **The script may be lauched from the extracted GitHub download like this:**
-```
+
+Windows:
+```powershell
 .\sos-firefoxstig.ps1
 ```
+
+Linux:
+```bash
+sudo chmod +x ./sos-firefoxstig.sh
+sudo bash ./sos-firefoxstig.sh
+```
+
