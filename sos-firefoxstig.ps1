@@ -1,3 +1,5 @@
+#SimeonOnSecurity - https://simeononsecurity.ch
+#https://github.com/simeononsecurity/FireFox-Privacy-Script/
 #https://www.itsupportguides.com/knowledge-base/tech-tips-tricks/how-to-customise-firefox-installs-using-mozilla-cfg/
 
 #Continue on error
