@@ -10,6 +10,7 @@ $ErrorActionPreference= 'silentlycontinue'
 
 $firefox64 = "C:\Program Files\Mozilla Firefox"
 $firefox32 = "C:\Program Files (x86)\Mozilla Firefox"
+
 Write-Output "Installing Firefox Configurations - Please Wait."
 Write-Output "Window will close after install is complete"
 If ((Test-Path -Path $firefox64) -eq $true){
