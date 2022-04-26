@@ -6,6 +6,11 @@ This script will bring you up to 100% compliance minus 2 checks.
 
 You must manually check Vul ID: **V-15770** and **V-15773**
 
+## Ansible:
+We now offer a playbook collection for this script. Please see the following:
+- [Github Repo](https://github.com/simeononsecurity/Windows_STIG_Ansible)
+- [Ansible Galaxy](https://galaxy.ansible.com/simeononsecurity/windows_stigs)
+
 ## Download the required files
 
 Download the required files from the [GitHub Repository](https://github.com/simeononsecurity/FireFox-STIG-Script)
