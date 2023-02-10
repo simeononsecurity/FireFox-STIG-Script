@@ -1,5 +1,7 @@
 # FireFox STIG Script
 
+[![VirusTotal Scan](https://github.com/simeononsecurity/FireFox-STIG-Script/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/FireFox-STIG-Script/actions/workflows/virustotal.yml)
+
 The [Firefox V4R29](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MOZ_FireFox_V4R29_STIG.zip) isn't the easiest of STIGs to apply. 
 
 This script will bring you up to 100% compliance minus 2 checks.
