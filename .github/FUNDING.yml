@@ -1,9 +1,6 @@
 # These are supported funding model platforms
-<<<<<<< HEAD
 
 github: simeononsecurity
-=======
-         
-github: simeononsecurity   
->>>>>>> 739e73291700e965830de7fa52ddf95cdacaf35f
 custom: ['https://simeononsecurity.ch/recommendations']
+
+
