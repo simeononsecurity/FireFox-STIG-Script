@@ -40,11 +40,11 @@ sudo bash ./sos-build-macos-plist.sh
 sudo bash ./sos-firefoxstig.sh
 ```
 
-<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
+<a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
   <h2>Explore the World of Cybersecurity</h2>
 </a>
-<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
-  <img src="https://simeononsecurity.ch/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
+<a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://simeononsecurity.com/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
 </a>
 
 ### Links:
