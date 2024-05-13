@@ -32,6 +32,14 @@ sudo chmod +x ./sos-firefoxstig.sh
 sudo bash ./sos-firefoxstig.sh
 ```
 
+MacOS:
+```bash
+sudo chmod +x ./sos-build-macos-plist.sh
+sudo chmod +x ./sos-firefoxstig.sh
+sudo bash ./sos-build-macos-plist.sh
+sudo bash ./sos-firefoxstig.sh
+```
+
 <a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
   <h2>Explore the World of Cybersecurity</h2>
 </a>
