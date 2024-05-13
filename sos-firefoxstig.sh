@@ -22,33 +22,18 @@ checkInstall() {
 
 testRoot
 
-# Define the directories
-if [ `uname -s` = "Darwin" ] ; then
-    # For macos - firefox 124.0.2
-    preferences_dir="/Applications/Firefox.app/Contents/Resources/defaults/pref/"
-    config_dir="/Applications/Firefox.app/Contents/Resources/"
+# For linux
+config_dir="/lib/firefox/"
+preferences_dir="/lib/firefox/browser/defaults/preferences/"
 
-    checkInstall
+checkInstall
 
-    rm /Library/Preferences/org.mozilla.firefox.plist
-    defaults import /Library/Preferences/org.mozilla.firefox ./Files/distribution/org.mozilla.firefox.plist
-
-else
-    # For linux
-    config_dir="/lib/firefox/"
-    preferences_dir="/lib/firefox/browser/defaults/preferences/"
-
-    checkInstall
-
-    distribution_dir="/lib/firefox/distribution/"
-    mkdir -p "$distribution_dir"
-    cp ./Files/distribution/policies.json "$distribution_dir"
-
-fi
+distribution_dir="/lib/firefox/distribution/"
+mkdir -p "$distribution_dir"
+#cp ./Files/Config/distribution/policies.json "$distribution_dir"
 
 # Create directories if they don't exist
 mkdir -p "$preferences_dir"
-mkdir -p "$extensions_dir"
 
 # Copy files to the directories
 cp ./Files/Config/mozilla.cfg "$config_dir"
